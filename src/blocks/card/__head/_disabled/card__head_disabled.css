@@ -1,0 +1,5 @@
+.card__head.card__head_disabled {
+    border: solid #B3B3B3 4px;
+    border-bottom: none;
+    border-left: none;
+}

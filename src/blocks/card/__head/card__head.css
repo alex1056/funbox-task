@@ -1,0 +1,16 @@
+@import url(./_selected/card__head_selected.css);
+@import url(./_disabled/card__head_disabled.css);
+
+.card__head { 
+    width: calc(100% - 45px);
+    height: 45px;
+    box-sizing: border-box;
+    border: solid #1698D9 4px;
+    border-bottom: none;
+    border-left: none;
+    border-radius: 0 12px 0 0;
+    position: absolute;
+    top: 0;
+    left: 45px;
+    background-color: #fff;
+}

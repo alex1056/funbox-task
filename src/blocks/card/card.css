@@ -1,0 +1,34 @@
+@import url(./__container/card__container.css);
+@import url(./__body/card__body.css);
+@import url(./__head/card__head.css);
+@import url(./__corner/card__corner.css);
+@import url(./__prolog/card__prolog.css);
+@import url(./__title/card__title.css);
+@import url(./__subtitle/card__subtitle.css);
+@import url(./__additions/card__additions.css);
+@import url(./__img/card__img.css);
+@import url(./__oval/card__oval.css);
+@import url(./__weight/card__weight.css);
+@import url(./__bottom-text-container/card__bottom-text-container.css);
+@import url(./__link/card__link.css);
+@import url(./__bottom-tex/card__bottom-text.css);
+
+.card {
+    margin-top: 24px;
+    width: 320px;
+    height: 509px;
+    font-family: 'Trebuchet MS', Verdana, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    .card:nth-child(2n)  {
+       margin-left: 80px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .card:nth-child(2n)  {
+       margin-left: 0;
+    }
+  }

@@ -1,0 +1,10 @@
+@import url(./_disabled/card__img_disabled.css);
+.card__img {
+    width: 320px;
+    height: 270px;
+    background-image: url(../../../images/cat.png);
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 0 10px;
+    opacity: 1;
+}

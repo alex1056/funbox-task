@@ -1,0 +1,5 @@
+.card__head.card__head_selected {
+    border: solid #D91667 4px;
+    border-bottom: none;
+    border-left: none;
+}

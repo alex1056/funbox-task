@@ -1,0 +1,17 @@
+@import url(./_selected/card__body_selected.css);
+@import url(./_disabled/card__body_disabled.css);
+
+.card__body {
+    width: 100%;
+    height: 435px;
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #1698D9 4px; 
+    border-top: none;
+    border-radius: 0 0 12px 12px;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    background-color: #fff;
+    opacity: 1;
+}

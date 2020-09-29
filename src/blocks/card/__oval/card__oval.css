@@ -1,0 +1,13 @@
+@import url(./_selected/card__oval_selected.css);
+@import url(./_disabled/card__oval_disabled.css);
+
+.card__oval {
+    border-radius: 50%;
+    background: #1698D9;
+    z-index: 5;
+    width: 81px;
+    height: 81px;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}

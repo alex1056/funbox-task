@@ -1,0 +1,11 @@
+@import url(./_selected/card__corner_selected.css);
+@import url(./_disabled/card__corner_disabled.css);
+
+.card__corner {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:linear-gradient(135deg, transparent 31px, #1698D9 31px, #1698D9 35px, #fff 35px);
+}

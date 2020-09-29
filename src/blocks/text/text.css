@@ -1,0 +1,6 @@
+@import url(./_style/_bold/text_style_bold.css);
+@import url(./_disabled/text_disabled.css);
+
+.text {
+    opacity: 1;
+}

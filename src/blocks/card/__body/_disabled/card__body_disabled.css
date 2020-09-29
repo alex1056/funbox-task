@@ -1,0 +1,4 @@
+.card__body.card__body_disabled {
+    border: solid #B3B3B3 4px;
+    border-top: none;
+}

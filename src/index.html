@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Тестовое задание fun-box "Нямушка"</title>
+  <meta name="author" content="Александр Бесов" />
+  <meta name="description" content="Проверка скилов" />
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>" />
+</head>
+
+<body class="body">
+  <div class="page">
+    <main class="main">
+      <h1 class="main__title">Ты сегодня покормил кота?</h1>
+      <div class="card-list">
+        <div class="card" id="card-1">
+          <div class="card__container">
+            <div class="card__corner"></div>
+            <div class="card__head">
+              <p class="card__prolog">Сказочное заморское яство</p>
+            </div>
+            <div class="card__body">
+              <h2 class="card__title">Нямушка</h2>
+              <h3 class="card__subtitle">с фуа-гра</h3>
+              <p class="card__additions"><span class="text text_style_bold">10</span> порций</p>
+              <p class="card__additions">мышь в подарок</p>
+              <div class="card__img"></div>
+              <div class="card__oval">
+                <p class="card__weight">0,5</p>
+                <p class="card__weight card__weight_smaller">кг</p>
+              </div>
+            </div>
+            <div class="card__bottom-text-container">
+              <p class="card__bottom-text">Чего сидишь? Порадуй котэ,</p>
+              <a href="" class="card__link">купи</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" id="card-2">
+          <div class="card__container">
+            <div class="card__corner"></div>
+            <div class="card__head">
+              <p class="card__prolog">Сказочное заморское яство</p>
+            </div>
+            <div class="card__body">
+              <h2 class="card__title">Нямушка</h2>
+              <h3 class="card__subtitle">с рыбой</h3>
+              <p class="card__additions"><span class="text text_style_bold">40</span> порций</p>
+              <p class="card__additions"><span class="text text_style_bold">2</span> мыши в подарок</p>
+              <div class="card__img"></div>
+              <div class="card__oval">
+                <p class="card__weight">2</p>
+                <p class="card__weight card__weight_smaller">кг</p>
+              </div>
+            </div>
+            <div class="card__bottom-text-container">
+              <p class="card__bottom-text">Чего сидишь? Порадуй котэ,</p>
+              <a href="" class="card__link">купи</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" id="card-3">
+          <div class="card__container">
+            <div class="card__corner card__corner_disabled"></div>
+            <div class="card__head card__head_disabled">
+              <p class="card__prolog text text_disabled">Сказочное заморское яство</p>
+            </div>
+            <div class="card__body card__body_disabled">
+              <h2 class="card__title text text_disabled">Нямушка</h2>
+              <h3 class="card__subtitle text text_disabled">с курой</h3>
+              <p class="card__additions text text_disabled"><span class="text text_style_bold">100</span> порций</p>
+              <p class="card__additions text text_disabled"><span class="text text_style_bold">5</span> мышей в подарок
+              </p>
+              <p class="card__additions text text_disabled">Заказчик доволен</p>
+              <div class="card__img card__img_disabled"></div>
+              <div class="card__oval card__oval_disabled">
+                <p class="card__weight">5</p>
+                <p class="card__weight card__weight_smaller">кг</p>
+              </div>
+            </div>
+            <div class="card__bottom-text-container">
+              <p class="card__bottom-text card__bottom-text_disabled">Печалька, с курой закончился.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </div>
+  <script src="<%= htmlWebpackPlugin.files.js %>" type="module"></script>
+</body>
+
+</html>

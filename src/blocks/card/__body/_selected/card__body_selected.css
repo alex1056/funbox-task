@@ -1,0 +1,6 @@
+.card__body.card__body_selected {
+    border: solid #D91667 4px;
+    border-top: none;
+
+}
+

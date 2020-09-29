@@ -1,0 +1,7 @@
+@import url(./_disabled/card__bottom-text_disabled.css);
+
+.card__bottom-text {
+    margin: 0;
+    padding: 0;
+    padding-right: 5px;
+}

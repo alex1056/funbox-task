@@ -1,0 +1,3 @@
+.card__corner.card__corner_disabled {
+    background:linear-gradient(135deg, transparent 31px, #B3B3B3 31px, #B3B3B3 35px, #fff 35px);
+}

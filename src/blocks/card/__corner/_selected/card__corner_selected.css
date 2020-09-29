@@ -1,0 +1,3 @@
+.card__corner.card__corner_selected {
+    background:linear-gradient(135deg, transparent 31px, #D91667 31px, #D91667 35px, #fff 35px);
+}
